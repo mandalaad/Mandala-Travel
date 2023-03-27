@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+  background-color: #5860A6;
+  font-family: "Inter", sans-serif;
+}
+
+.border-radius-content {
+  border-radius: 20px 0 0 20px;
+}
+
+.row,
+.col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.login {
+  max-height: 500px;
+  padding: 70px 50px;
+  width: 100%;
+  margin: 0 !important;
+}
+
+p,
+h3,
+label {
+  color: #494949;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.border-radius-all {
+  border-radius: 20px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: bisque;
+  color: black;
+  border: none;
+}
+
+.btn img:hover {
+  transform: scale(120%);
+  transition: 0.2s;
+}
+
+.container-image {
+  background-image: url("images/bg.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 20px 20px 0;
+  margin-left: -20px;
+}/*# sourceMappingURL=login.css.map */
