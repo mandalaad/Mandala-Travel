@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(120%);
     transition: .2s;
+    z-index: 1;
 }
